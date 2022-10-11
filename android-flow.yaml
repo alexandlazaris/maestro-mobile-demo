@@ -1,0 +1,8 @@
+# flow.yaml
+
+appId: com.google.android.apps.messaging
+---
+- launchApp
+- tapOn: "Start chat"
+- inputText: "0404 040 404"
+- assertVisible: "Send to 0404040404"
