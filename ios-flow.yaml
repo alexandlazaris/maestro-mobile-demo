@@ -1,0 +1,12 @@
+# flow.yaml
+
+appId: com.apple.MobileSMS
+---
+- launchApp
+# - tapOn: "Kate"
+- tapOn:
+    containsChild: "Kate Bell"
+- inputText: "Hey there, this is an automated test"
+- tapOn: "backButton"
+- tapOn: "John Appleseed"
+- assertVisible: "Hey there, this is an automated test"
