@@ -1,0 +1,11 @@
+appId: com.apple.MobileSMS
+---
+- launchApp
+- tapOn: 
+    below: 
+        id: "ConversationList"  
+- tapOn: 
+    id: "messageBodyField"
+- inputText: "Hey there, this is an automated test."
+- tapOn: 
+    id: "sendButton"
