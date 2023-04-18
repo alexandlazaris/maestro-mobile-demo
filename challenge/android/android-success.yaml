@@ -1,0 +1,9 @@
+appId: io.testproject.demo
+---
+- launchApp
+- tapOn: Enter your Full Name
+- inputText: "Success"
+- tapOn: Enter your Password
+- inputText: "12345"
+- tapOn: LOGIN
+- assertVisible: "Hello Success"
