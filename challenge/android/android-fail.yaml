@@ -1,0 +1,9 @@
+appId: io.testproject.demo
+---
+- launchApp
+- tapOn: Enter your Full Name
+- inputText: "B@D DATa"
+- tapOn: Enter your Password
+- inputText: "B@D DATa"
+- tapOn: LOGIN
+- assertVisible: "This password is incorrect"

@@ -1,0 +1,14 @@
+appId: io.testproject.Demo
+---
+- launchApp: io.testproject.Demo
+- tapOn: 
+    id: "name"
+- inputText: "Success"
+- tapOn: 
+    id: "password"
+- inputText: "12345"
+- tapOn: Login
+- assertVisible: 
+    id: "greetings"
+
+
