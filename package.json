@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/alexandlazaris/maestro-mobile-demo/issues"
   },
-  "homepage": "https://github.com/alexandlazaris/maestro-mobile-demo#readme"
+  "homepage": "https://github.com/alexandlazaris/maestro-mobile-demo#readme",
+  "dependencies": {
+    "maestro": "^2.1.1"
+  }
 }
